@@ -1,0 +1,16 @@
+# AI Smart Ingredient Scanner
+
+A Computer Vision application that identifies food ingredients from photos and suggests recipes using Google's Gemini AI.
+
+## Features
+- **Image Upload:** Upload photos of your fridge or pantry.
+- **AI Identification:** Automatically detects vegetables, fruits, and proteins.
+- **Recipe Generation:** Suggests 3 custom recipes based on what it sees.
+- **Built with:** Python, Streamlit, and Gemini 2.5 Flash.
+
+## Setup Instructions
+1. Clone this repo.
+2. Create a `.env` file and add your `GOOGLE_API_KEY`.
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
